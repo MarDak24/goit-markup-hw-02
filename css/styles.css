@@ -14,7 +14,7 @@
 body {
   color: var(--main-color);
 
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.02em;
 }
@@ -44,12 +44,12 @@ ul {
 
 .hero {
   color: var(--white-color);
+  background-color: var(--main-color);
 
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
 }
 
 .button {
@@ -65,6 +65,9 @@ ul {
   letter-spacing: 0.04em;
 }
 
+.footer {
+  background-color: var(--main-color);
+}
 .footer-text {
   color: var(--footer-text-color);
 }
@@ -89,6 +92,7 @@ ul {
 }
 
 .main-link {
+  color: var(--white-studio-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -116,7 +120,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
 }
 
@@ -124,11 +127,9 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
 }
 
 .position {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
 }
