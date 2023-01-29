@@ -48,11 +48,13 @@ ul {
 
 .header-link {
   color: var(--main-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .address {
@@ -78,13 +80,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.hero {
+  background-color: var(--main-color);
+}
+
 .hero-title {
   color: var(--white-color);
-  background-color: var(--main-color);
 
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button {
@@ -110,11 +116,13 @@ ul {
 
 .footer-link {
   color: var(--white-studio-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-text {
@@ -176,6 +184,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team {
@@ -193,10 +202,12 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .position {
   color: var(--secondary-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
